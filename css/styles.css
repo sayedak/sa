@@ -1,0 +1,154 @@
+/************************************TAG SELECTORS****************************************/
+body {
+  background-color: #212121;
+  /*#212121*/
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-indent: 0;
+  text-align-last: center;
+}
+
+hr {
+  border-color: #323232;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 7%;
+}
+
+img {
+  height: 180px;
+}
+
+h1 {
+  color: #ffd31d;
+  font-family: copperplate gothic;
+  font-size: 55px;
+  /*text-align: center;*/
+}
+
+h2 {
+  color: #ffd31d;
+  font-size: 35px;
+  font-family: copperplate gothic;
+  /*text-align: center;*/
+}
+
+h3 {
+  color: #ffd31d;
+  font-family: copperplate gothic;
+  font-size: 30px;
+  /*text-align: center;*/
+}
+
+h6 {
+  color: #ffd31d;
+  font-family: copperplate gothic;
+  font-size: 25px;
+  /*text-align: center;*/
+}
+
+p {
+  color: #eeeeee;
+  font-size: 18px;
+  font-family: georgia;
+  text-align: center;
+}
+
+li {
+  color: #eeeeee;
+  text-align-last: center;
+  font-family: georgia;
+  font-size: 18px;
+}
+
+a {
+  color: #ffd31d;
+  font-family: georgia;
+  /*text-align: center;*/
+}
+
+/*a:hover {
+  background-color: black;
+}*/
+table {
+  color: #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: center;
+}
+
+td {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: center;
+}
+
+tr {
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: center;
+}
+
+ol {
+  color: #eeeeee;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: center;
+}
+
+li {
+  color: #eeeeee;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: center;
+}
+
+page-wrap {
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav {
+  color: #eeeeee;
+}
+
+::selection {
+  background: #00E677;
+  /*#00E677;*/
+  color: black;
+}
+
+/************************************CLASS SELECTORS****************************************/
+.profilename {
+  color: #eeeeee;
+  text-shadow: 0 0 3px white;
+}
+
+.welcome {
+  color: red;
+}
+
+/*.pagename {
+  text-decoration: none;
+  font-family: verdana;
+}*/
+.mainshadow {
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+/************************************CLASS SELECTORS****************************************/
+#pagename {
+  text-decoration: none;
+  font-family: verdana;
+}
+
+#copyright {
+  font-family: arial;
+  font-size: 15px
+}
